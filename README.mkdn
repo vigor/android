@@ -1,4 +1,4 @@
-CyanogenMod 10.2 for HTC Rezound (vigor)
+CyanogenMod 11.0 for HTC Rezound (vigor)
 ===========
 
 Getting Started
@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
 To initialize your local repository using the CyanogenMod/vigor trees, use a command like this:
 
-    repo init -u git://github.com/vigor/android.git -b cm-10.2
+    repo init -u git://github.com/vigor/android.git -b cm-11.0
 
 Then to sync up:
 
