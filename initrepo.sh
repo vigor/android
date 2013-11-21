@@ -1,9 +1,6 @@
 #/bin/bash 
 #
 
-# cd to our source root
-cd ~/Android/cm11.0-rezound
-
 [ -d .repo ] || mkdir .repo
 pushd .repo
 
