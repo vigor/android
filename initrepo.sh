@@ -15,6 +15,10 @@ popd
 
 repo init -b cm-11.0 -u git://github.com/CyanogenMod/android.git
 
+pushd .repo
+    sed -i "s/sync-c=\"true\"//g" manifest.xml
+popd
+
 repo sync -j16
 
 pushd vendor/cm
