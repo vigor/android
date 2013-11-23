@@ -8,7 +8,7 @@ pushd .repo
 pushd local_manifests
 
 rm -f local_manifest.xml
-wget https://raw.github.com/vigor/android/cm-11.0/local_manifests/local_manifest.xml
+wget https://raw.github.com/vigor/android/cm-11.0-ion/local_manifests/local_manifest.xml
 
 popd
 popd
