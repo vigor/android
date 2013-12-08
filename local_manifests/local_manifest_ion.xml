@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project path="android" name="CyanogenMod/android" />
   <project path="android" name="vigor/android" revision="cm-11.0"/>
 
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" revision="cm-11.0" />
