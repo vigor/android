@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <project path="android" name="vigor/android" revision="cm-11.0"/>
+  <project path="vigor" name="vigor/android" revision="cm-11.0"/>
 
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" revision="cm-11.0" />
   <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" revision="cm-11.0_ion" />
