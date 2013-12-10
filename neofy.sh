@@ -18,8 +18,8 @@ echo
 DIR=$(pwd)
 
 cd $DIR/prebuilts/gcc/linux-x86/arm/
-git clone -b sm-kk-mr1 https://github.com/sabermod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8 arm-linux-androideabi-4.8
-git clone -b sm-kk-mr1 https://github.com/sabermod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8 arm-eabi-4.8
+git clone -b sm-kk-mr1 https://github.com/SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8 arm-linux-androideabi-4.8
+git clone -b sm-kk-mr1 https://github.com/SaberMod/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.8 arm-eabi-4.8
 
 cd $DIR/build/
 git fetch https://github.com/IAmTheOneTheyCallNeo/android_build tachyon-2.0 && git cherry-pick 2c1e134c8a97cbc02adf7888327a7a276a7c4846
