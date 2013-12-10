@@ -19,7 +19,7 @@ pushd .repo
     sed -i "s/sync-c=\"true\"//g" manifest.xml
 popd
 
-repo sync -j16
+repo sync -j8
 
 pushd vendor/cm
 ./get-prebuilts
