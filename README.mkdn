@@ -1,4 +1,4 @@
-CyanogenMod 11.0 for HTC Rezound (vigor)
+CyanogenMod 11.0 -- ION for HTC Rezound (vigor)
 ===========
 
 Getting Started
@@ -7,13 +7,17 @@ Getting Started
 To get started with Android/CyanogenMod, you'll need to get
 familiar with [Git and Repo](http://source.android.com/download/using-repo).
 
-To initialize your local repository using the CyanogenMod/vigor trees, use a command like this:
+To initialize your local repository using the CyanogenMod/vigor trees, use the provided "initrepo.sh" script.
 
-    repo init -u git://github.com/vigor/android.git -b cm-11.0
+Download the "initrepo_ion.sh" script to the directory where you want your source to be based.  
 
-Then to sync up:
+Make sure it is +x, then :
 
-    repo sync
+    ./initrepo_ion.sh
+
+Then whenver you want to re-sync :
+
+    repo sync -j16
 
 Then to get prebuilts:
 
@@ -31,3 +35,7 @@ Please see the [CyanogenMod Wiki](http://wiki.cyanogenmod.org/) for building ins
 
 For more information on this Github Organization and how it is structured, 
 please [read the wiki article](http://wiki.cyanogenmod.org/index.php/Github_Organization)
+
+Sample scripts (cherrypick, make) are in the Build Scripts folder in /vigor in your build root.
+
+Local Manifest files are in the local_manifests folder in /vigor in your build root.
