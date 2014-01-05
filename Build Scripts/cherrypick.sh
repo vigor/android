@@ -193,6 +193,16 @@ echo ""
 
 dirs -c
 
+# DO NOT REMOVE - required for proper operation of hybrid ion/pmem build
+# revert new boot animation
+echo ""
+echo ">>> revert new boot animation"
+pushd vendor/cm
+git revert --no-edit b71b47d72b129915327f41653b06edaea5008534 || retval=1
+popd
+echo ">>> done; current result value : $retval"
+if [ "$auto" == "0" ]; then read -p "press [enter] to continue..."; fi
+
 
 if [ $retval -eq 0 ] && [ $merged -eq 1 ]
 then
