@@ -118,61 +118,61 @@ rm -f cherryresult.txt
 # cherrypicks
 
 # build
-getcherrypick 53559
+#getcherrypick 53559
 
 # SuperUser
-getcherrypick 53956
+#getcherrypick 53956
 
 # packages/apps/Settings
-getcherrypick 53468
+#getcherrypick 53468
 
 # frameworks/av
-getcherrypick 53324
-getcherrypick 54250
-getcherrypick 54217
+#getcherrypick 53324
+#getcherrypick 54250
+#getcherrypick 54217
 
 # frameworks/base
-getcherrypick 53544
-getcherrypick 53651
-getcherrypick 53724
-getcherrypick 53695
-getcherrypick 54102
+#getcherrypick 53544
+#getcherrypick 53651
+#getcherrypick 53724
+#getcherrypick 53695
+#getcherrypick 54102
 
 # frameworks/native
-getcherrypick 52994
-getcherrypick 54257
+#getcherrypick 52994
+#getcherrypick 54257
 
 # telephony
-getcherrypick 53445
-getcherrypick 53528
+#getcherrypick 53445
+#getcherrypick 53528
 
 # hardware/libhardware
 
 # hardware/libhardware_legacy
-getcherrypick 53165
+#getcherrypick 53165
 
 # Apps/Camera2
-getcherrypick 53595
-getcherrypick 53603
+#getcherrypick 53595
+#getcherrypick 53603
 
 # Apps/Dialer
-getcherrypick 53302
+#getcherrypick 53302
 
 # Apps/Settings
-getcherrypick 53648
-getcherrypick 54195
+#getcherrypick 53648
+#getcherrypick 54195
 
 # TelephonyProvider
-getcherrypick 53309
+#getcherrypick 53309
 
 # Telephony
-getcherrypick 53131
+#getcherrypick 53131
 #getcherrypick 53301
 
 # hardware/qcom/media
-getcherrypick 54193
-getcherrypick 54152
-getcherrypick 53434
+#getcherrypick 54193
+#getcherrypick 54152
+#getcherrypick 53434
 
 # hardware/qcom/audio-caf
 
