@@ -13,7 +13,7 @@ mv local_manifest_hybrid.xml local_manifest.xml
 popd
 popd
 
-repo init -b cm-11.0 -u git://github.com/CyanogenMod/android.git
+repo init -b cm-11.0 -u https://github.com/CyanogenMod/android.git
 
 pushd .repo
     sed -i "s/sync-c=\"true\"//g" manifest.xml
