@@ -1,4 +1,4 @@
-CyanogenMod 11.0 for HTC Rezound (vigor)
+CyanogenMod 12.0 for HTC Rezound (vigor)
 ===========
 
 Getting Started
@@ -18,10 +18,6 @@ Make sure it is +x, then :
 Then whenver you want to re-sync :
 
     repo sync -j16
-
-Then to get prebuilts:
-
-    ./vendor/cm/get-prebuilts
 
 Then to build environment:
 
