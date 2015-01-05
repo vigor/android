@@ -8,6 +8,8 @@
   <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" />
   <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" />
   <project path="vendor/htc/vigor" name="vigor/vendor_htc_vigor" />
+  
+  <project path="hardware/msm7k" name="vigor/android_hardware_msm7k" />
 
 <!--  <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
    <project path="hardware/qcom/audio-caf" name="Evervolv/android_hardware_qcom_audio-caf" branch="kitkat" />-->
