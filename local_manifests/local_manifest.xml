@@ -5,8 +5,9 @@
   <project path="device/htc/vigor" name="vigor/device_htc_vigor" />
   <project path="device/htc/msm8660-common" name="vigor/android_device_htc_msm8660-common" />
   <project path="kernel/htc/vigor-3.0" name="vigor/vigor_aosp_kernel" />
-  <project path="hardware/qcom/display-legacy" name="vigor/android_hardware_qcom_display-legacy" />
-  <project path="hardware/qcom/media-legacy" name="vigor/android_hardware_qcom_media-legacy" />
+  <project path="hardware/qcom/audio-caf/msm8660" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.0-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8660" name="vigor/android_hardware_qcom_display-legacy" />
+  <project path="hardware/qcom/media-caf/msm8660" name="vigor/android_hardware_qcom_media-legacy" />
   <project path="vendor/htc/vigor" name="vigor/vendor_htc_vigor" />
   
   <project path="hardware/msm7k" name="vigor/android_hardware_msm7k" />
